@@ -14,6 +14,8 @@ Welcome to PyCon JP TV #25 sample project's documentation!
    quickstart
    customize
    markdown
+   theme
+   deploy
 
 
 Indices and tables

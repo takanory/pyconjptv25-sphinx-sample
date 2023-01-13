@@ -22,3 +22,9 @@ Sphinx==5.3.0
 * main
 
 ## Buildを実行
+
+* ボタンを押してBuildを実行
+
+## ドキュメントを修正してPush
+
+* 自動でbuildが走る

@@ -3,8 +3,9 @@
 ## requirements.txtを追加
 
 ```bash
-(env) $ pip freeze > requirements.txt
-(env) $ cat requirements.txt
+furo==2022.12.7
+myst-parser==0.18.1
+Sphinx==5.3.0
 ```
 
 ## Read the Docsのアカウント設定

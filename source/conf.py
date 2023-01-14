@@ -16,6 +16,7 @@ author = 'takanory'
 extensions = [
     "myst_parser",
     "sphinxext.opengraph",
+    "sphinx_copybutton",
 ]
 
 templates_path = ['_templates']

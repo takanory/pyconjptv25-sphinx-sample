@@ -18,3 +18,9 @@ for i in range(1, 101):
 	    case (_, _):
 		    print(i)
 ```
+
+## Font Awesome
+
+* {fab}`twitter` @takanory
+* {fab}`python` Python
+* {fas}`cable-car` ケーブルカー

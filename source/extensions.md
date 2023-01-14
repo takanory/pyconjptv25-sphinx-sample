@@ -104,3 +104,16 @@ extensions = [
     "sphinx_design",
 ]
 
+html_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css",
+]
+```
+
+* Font Awesomeのフォントを追加
+  * [Font Awesome](https://fontawesome.com/search)
+  
+```md
+* {fab}`twitter` @takanory
+* {fab}`python` Python
+* {fas}`cable-car` ケーブルカー
+```

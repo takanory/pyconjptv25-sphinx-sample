@@ -17,6 +17,7 @@ extensions = [
     "myst_parser",
     "sphinxext.opengraph",
     "sphinx_copybutton",
+    "sphinx_design",
 ]
 
 templates_path = ['_templates']
@@ -35,3 +36,7 @@ html_logo = "_static/logo.png"
 # sphinxext-opengraph
 ogp_site_url = "https://pyconjptv25-sphinx-sample.readthedocs.io/"
 ogp_image = "https://pyconjptv25-sphinx-sample.readthedocs.io/en/latest/_static/logo.png"
+
+html_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css",
+]

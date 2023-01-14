@@ -16,6 +16,8 @@ Welcome to PyCon JP TV #25 sample project's documentation!
    markdown
    theme
    deploy
+   extensions
+   test
 
 
 Indices and tables

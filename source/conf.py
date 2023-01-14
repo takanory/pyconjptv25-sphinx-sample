@@ -14,7 +14,8 @@ author = 'takanory'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "myst_parser"
+    "myst_parser",
+    "sphinxext.opengraph",
 ]
 
 templates_path = ['_templates']
@@ -29,3 +30,7 @@ language = 'ja'
 html_theme = "furo"
 html_static_path = ['_static']
 html_logo = "_static/logo.png"
+
+# sphinxext-opengraph
+ogp_site_url = "https://pyconjptv25-sphinx-sample.readthedocs.io/"
+ogp_image = "https://pyconjptv25-sphinx-sample.readthedocs.io/en/latest/_static/logo.png"

@@ -1,6 +1,9 @@
 # Sphinxとは
 
 * Sphinxの紹介: <https://www.sphinx-doc.org/ja/master/>
+* Python製のドキュメント生成ツール
+* HTMLやepub、PDFなどに出力できる
+* 静的サイトジェネレーター
 
 ## Sphinxを使っているサイトの紹介
 

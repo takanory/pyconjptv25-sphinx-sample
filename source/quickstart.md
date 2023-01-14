@@ -30,12 +30,19 @@ $ . env/bin/activate
 > Author name(s): takanory
 > Project release []: 
 > Project language [en]: ja
-(env) $ ls  # ファイルを確認
-LICENSE		README.md	env		source
-Makefile	build		make.bat
 (env) $ make html
 (env) $ ls build/html
 (env) $ open build/html/index.html
+```
+
+## ファイル構成を確認
+
+* ファイル構成を確認する
+
+```bash
+(env) $ ls -CF  # ファイルを確認
+LICENSE		README.md	env		source
+Makefile	build		make.bat
 ```
 
 ## rstを書き換える

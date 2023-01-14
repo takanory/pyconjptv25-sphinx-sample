@@ -12,7 +12,7 @@
 
 ```python
 extensions = [
-    "myst_parser"
+    "myst_parser",
 ]
 ```
 
@@ -30,11 +30,19 @@ extensions = [
 
 * `source/test.md` を追加
 
+```bash
+(env) $ cd source
+(env) $ mkdir images
+(env) $ curl https://pbs.twimg.com/profile_images/192722095/kurokuri_400x400.jpg -o images/takanory.jpg
+```
+
 ```md
 # テストドキュメント
 
 * 箇条書き
 * 箇条書き
 * [tv.pycon.jp](https://tv.pycon.jp/)
+
+![takanory](images/takanory.jpg)
 ```
 

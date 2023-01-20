@@ -117,3 +117,30 @@ html_css_files = [
 * {fab}`python` Python
 * {fas}`cable-car` ケーブルカー
 ```
+
+## sphinx-pyscript
+
+* [Sphinx PyScript documentation](https://sphinx-pyscript.readthedocs.io/en/latest/)
+* [PyScript](https://pyscript.net/) を埋め込める
+* `pip install`
+
+```bash
+(env) $ pip install sphinx-pyscript
+```
+
+* `requirements.txt` に追加
+
+```text
+...
+sphinx-pyscript==0.1.0
+```
+
+* `source/conf.py` に設定を追加
+
+```python
+extensions = [
+    ...
+    "sphinx_pyscript",
+]
+```
+

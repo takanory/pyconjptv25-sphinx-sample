@@ -18,6 +18,7 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_copybutton",
     "sphinx_design",
+    "sphinx_pyscript",
 ]
 
 templates_path = ['_templates']
